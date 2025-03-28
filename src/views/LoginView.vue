@@ -29,7 +29,6 @@
     </div>
   </form>
 </template>
-
 <script setup lang="ts">
 import { decodeCredential } from 'vue3-google-login'
 import { useRouter } from 'vue-router'
