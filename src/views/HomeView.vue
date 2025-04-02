@@ -3,7 +3,7 @@
     <!-- sidebar -->
     <div class="flex justify-between flex-col h-screen dark-purple">
       <div class="p-3 pt-6 relative">
-        <div class="text-center mb-8 rounded p-2">
+        <div class="text-center mb-8 rounded p-2 icon">
           <AnOutlinedMenu class="text-white cursor-pointer w-full text-lg" />
         </div>
 
@@ -51,7 +51,7 @@
         </div>
 
         <div class="p-4 pt-2">
-          <img src="https://placehold.co/40x40" class="rounded" alt="" />
+          <img src="https://placehold.co/40x40" class="rounded cursor-pointer" alt="" />
         </div>
       </div>
     </div>
@@ -107,9 +107,169 @@
           </div>
         </div>
 
-        <div class="second-section border-white p-3">02</div>
+        <div class="second-section border-white p-3">
+          <div class="flex justify-between">
+            <div class="p-1 font-bold text-xl text-white"># Support</div>
 
-        <div class="second-section border-white p-3">03</div>
+            <div class="content-center text-white text-xl flex">
+              <div class="content-center p-1 icon rounded">
+                <FlHeadphones class="text-2xl" />
+              </div>
+
+              <div class="content-center p-1 icon rounded">
+                <BxDotsVerticalRounded class="text-2xl" />
+              </div>
+            </div>
+          </div>
+          <hr class="mt-4 mb-4 text-white" />
+          <div>
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+
+            <div class="flex text-white mb-4">
+              <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+              <div>
+                <div class="font-bold">Tony LC</div>
+
+                <div class="text-sm">Good morning!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="second-section border-white p-3">
+          <div class="flex justify-between text-white  mb-10">
+            <div class="p-1 font-bold text-xl">Thread</div>
+
+            <div class="flex">
+              <div class="p-1 content-center icon text-2xl rounded">
+                <CaShrinkScreen />
+              </div>
+
+              <div class="p-1 content-center icon text-2xl rounded">
+                <AkXSmall />
+              </div>
+            </div>
+          </div>
+
+          <div class="flex text-white mb-4">
+            <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+            <div>
+              <div class="font-bold">Tony LC</div>
+
+              <div class="text-sm">Good morning!</div>
+            </div>
+          </div>
+
+          <hr class="text-white mb-4">
+          <div class="flex text-white mb-4">
+            <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+            <div>
+              <div class="font-bold">Tony LC</div>
+
+              <div class="text-sm">Good morning!</div>
+            </div>
+          </div>
+
+          <div class="flex text-white mb-4">
+            <img src="https://placehold.co/40x40" alt="" class="rounded mr-2" />
+
+            <div>
+              <div class="font-bold">Tony LC</div>
+
+              <div class="text-sm">Good morning!</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -127,6 +287,10 @@ import {
   ThHeadphoneAlt,
   BsChatRightText,
   BsSendArrowUp,
+  FlHeadphones,
+  BxDotsVerticalRounded,
+  AkXSmall,
+  CaShrinkScreen,
   // @ts-ignore
 } from '@kalimahapps/vue-icons'
 </script>
